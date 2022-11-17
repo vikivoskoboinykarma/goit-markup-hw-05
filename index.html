@@ -116,12 +116,21 @@
               width="370"
               height="294"  class="img"
             />
+            <div class="section-thumb">
+              <h3 class="section-actions">Десктопні додатки</h3>
+            </div>
           </li>
           <li class="item">
             <img src="./img/img_2.jpg" alt="Додатки" width="370" height="294"  class="img" />
+            <div class="section-thumb">
+              <h3 class="section-actions">Мобільні додатки</h3>
+            </div>
           </li>
           <li class="item">
             <img src="./img/img_3.jpg" alt="дизайн" width="370" height="294"  class="img" />
+          <div class="section-thumb">
+              <h3 class="section-actions">Дизайнерські рішення</h3>
+            </div>
           </li>
         </ul>
         </div>
@@ -405,9 +414,12 @@
       </section>
       </div>
     </footer>
-   <div class="backdrop is-hidden" data-backdrop>
-      <div class="modal" data-modal>
-        <button class="close-modal" data-modal-close> close</button>
+   <div class="backdrop is-hidden"  data-modal>
+      <div class="modal">
+        <button class="close-modal" data-modal-close>
+           <svg class="close-icon" width="30" height="30" >
+            <use href="./img/close.svg"  ></use>
+           </svg> </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
